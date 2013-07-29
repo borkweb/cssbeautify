@@ -51,11 +51,13 @@ textarea {
 .container {
     margin-left: auto;
     margin-right: auto;
-    width: 960px;
+    padding-left: 1em;
+    padding-right: 1em;
+    width: 100%;
 }
 
 .container .raw {
-    width: 380px;
+    width: 40%;
     display: inline;
     float: left;
     margin-left: 10px;
@@ -80,7 +82,7 @@ textarea {
 }
 
 .container .formatted {
-    width: 380px;
+    width: 40%;
     display: inline;
     float: left;
     margin-left: 10px;
